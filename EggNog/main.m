@@ -34,5 +34,13 @@ int main(int argc, const char * argv[]) {
     NSLog(@"Ma voiture est une %@ %@", x2, voiture2.marque);
     
     [voiture2 afficheDetail];
+    
+    
+    int x3 = 45;
+    int *y = &x3;
+    NSLog(@"la valeur de x est %i", *y);
+    NSLog(@"l'adresse de x est %p", y);
+    
+    
     return 0;
 }

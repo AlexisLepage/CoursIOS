@@ -12,6 +12,8 @@
 		EC5403F71C50D8FA00519911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5403F61C50D8FA00519911 /* Assets.xcassets */; };
 		EC5403FA1C50D8FA00519911 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5403F81C50D8FA00519911 /* MainMenu.xib */; };
 		EC5404051C50F0D000519911 /* Voiture.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5404041C50F0D000519911 /* Voiture.m */; };
+		EC54040B1C510CE600519911 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = EC54040A1C510CE600519911 /* Vehicle.m */; };
+		EC54040E1C510CF800519911 /* Camion.m in Sources */ = {isa = PBXBuildFile; fileRef = EC54040D1C510CF800519911 /* Camion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		EC5403FB1C50D8FA00519911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5404031C50F0D000519911 /* Voiture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voiture.h; sourceTree = "<group>"; };
 		EC5404041C50F0D000519911 /* Voiture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voiture.m; sourceTree = "<group>"; };
+		EC5404091C510CE600519911 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		EC54040A1C510CE600519911 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		EC54040C1C510CF800519911 /* Camion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camion.h; sourceTree = "<group>"; };
+		EC54040D1C510CF800519911 /* Camion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				EC5403F31C50D8FA00519911 /* Supporting Files */,
 				EC5404031C50F0D000519911 /* Voiture.h */,
 				EC5404041C50F0D000519911 /* Voiture.m */,
+				EC5404091C510CE600519911 /* Vehicle.h */,
+				EC54040A1C510CE600519911 /* Vehicle.m */,
+				EC54040C1C510CF800519911 /* Camion.h */,
+				EC54040D1C510CF800519911 /* Camion.m */,
 			);
 			path = EggNog;
 			sourceTree = "<group>";
@@ -145,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC54040B1C510CE600519911 /* Vehicle.m in Sources */,
 				EC5403F51C50D8FA00519911 /* main.m in Sources */,
+				EC54040E1C510CF800519911 /* Camion.m in Sources */,
 				EC5403F21C50D8FA00519911 /* AppDelegate.m in Sources */,
 				EC5404051C50F0D000519911 /* Voiture.m in Sources */,
 			);

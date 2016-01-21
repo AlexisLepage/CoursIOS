@@ -1,5 +1,5 @@
 //
-//  Voiture.h
+//  Vehicle.h
 //  EggNog
 //
 //  Created by etudiant on 21/01/2016.
@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Vehicle.h"
 
-@interface Voiture : Vehicle
+@interface Vehicle : NSObject
 
 @end

@@ -10,11 +10,5 @@
 #import <Cocoa/Cocoa.h>
 
 @implementation Voiture
-@synthesize marque,modele,annee,cylindree;
-
--(void) afficheDetail
-{
-    NSLog(@"Ma voiture est une %@ %@, immatriculée en %i et fait %f CV", self.marque, self.modele, self.annee, self.cylindree);
-}
 
 @end
