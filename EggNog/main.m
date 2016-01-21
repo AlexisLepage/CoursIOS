@@ -7,7 +7,32 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Voiture.h"
 
 int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+    int imgLargeur;
+    float imgHauteur, imgAire;
+    imgLargeur = 2;
+    imgHauteur = 2.5f;
+    imgAire = imgHauteur * imgLargeur;
+    NSLog(@"imgAire=%f", imgAire);
+    
+    Voiture* voiture = [[Voiture alloc] init];
+    [voiture setMarque:@"Peugeot"];
+    [voiture setModele:@"207"];
+    
+    NSString* x = voiture.modele;
+    NSLog(@"Ma voiture est une %@ %@", x, voiture.marque);
+    
+    Voiture* voiture2 = [Voiture new];
+    voiture2.marque =  @"Renault";
+    voiture2.modele = @"Clio";
+    voiture2.annee = 2009;
+    voiture2.cylindree = 70.5;
+    
+    NSString* x2 = voiture2.modele;
+    NSLog(@"Ma voiture est une %@ %@", x2, voiture2.marque);
+    
+    [voiture2 afficheDetail];
+    return 0;
 }

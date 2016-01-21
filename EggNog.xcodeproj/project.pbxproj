@@ -11,6 +11,7 @@
 		EC5403F51C50D8FA00519911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5403F41C50D8FA00519911 /* main.m */; };
 		EC5403F71C50D8FA00519911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5403F61C50D8FA00519911 /* Assets.xcassets */; };
 		EC5403FA1C50D8FA00519911 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5403F81C50D8FA00519911 /* MainMenu.xib */; };
+		EC5404051C50F0D000519911 /* Voiture.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5404041C50F0D000519911 /* Voiture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		EC5403F61C50D8FA00519911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5403F91C50D8FA00519911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		EC5403FB1C50D8FA00519911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5404031C50F0D000519911 /* Voiture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voiture.h; sourceTree = "<group>"; };
+		EC5404041C50F0D000519911 /* Voiture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voiture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 				EC5403F81C50D8FA00519911 /* MainMenu.xib */,
 				EC5403FB1C50D8FA00519911 /* Info.plist */,
 				EC5403F31C50D8FA00519911 /* Supporting Files */,
+				EC5404031C50F0D000519911 /* Voiture.h */,
+				EC5404041C50F0D000519911 /* Voiture.m */,
 			);
 			path = EggNog;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			files = (
 				EC5403F51C50D8FA00519911 /* main.m in Sources */,
 				EC5403F21C50D8FA00519911 /* AppDelegate.m in Sources */,
+				EC5404051C50F0D000519911 /* Voiture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
